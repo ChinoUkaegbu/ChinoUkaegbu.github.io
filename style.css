@@ -70,8 +70,8 @@ p{
 
 body{
   background-color: #f2e9e4;
-  /* font-family: Optima; */
-  font-family: 'Optima', sans-serif;
+  font-family: Optima;
+  /* font-family: 'Optima', sans-serif; */
   margin: 0px;
 }
 
@@ -89,8 +89,8 @@ div.gallery img {
 }
 
 div.desc {
-  /* font-family: Optima; */
-  font-family: 'Optima', sans-serif;
+  font-family: Optima;
+  /* font-family: 'Optima', sans-serif; */
   padding: 15px;
   text-align: center;
 }
