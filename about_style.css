@@ -1,0 +1,82 @@
+@font-face {
+  font-family: LemonMilk;
+  src: url(LemonMilkMedium-mLZYV.otf);
+}
+
+@font-face {
+  font-family: Optima;
+  src: url(optima.ttf);
+}
+
+* {box-sizing: border-box}
+
+.nav{
+  width:100%;
+  background-color: #22223B;
+  overflow: auto;
+  font-family: Optima;
+}
+
+.nav a{
+  float: left;
+  color: white;
+  padding: 20px;
+  text-decoration: none;
+  font-size: 2.5vw;
+  width:25%;
+  text-align: center;
+}
+
+.nav a:hover:not(.active){
+  background-color: #4A4E69;
+  cursor:pointer;
+}
+
+.active {
+  background-color: #E1AD9D
+}
+
+@media screen and (max-width: 500px) {
+  .nav a {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: left;
+  }
+}
+
+.responsive{
+  width: 100%;
+  height: auto;
+}
+.container{
+  position: relative;
+}
+
+.container img {
+  width: 100%;
+}
+
+.container .overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+  font-family: LemonMilk;
+  text-align: right;
+  font-size: 4.5vw;
+  letter-spacing: 1px;
+  color: #F9F5EC;
+}
+
+p{
+  font-family: Optima;
+  text-align: center;
+  font-size: 1.6vw;
+}
+
+body{
+  margin: 0px;
+  background-color: #f2e9e4;
+}
