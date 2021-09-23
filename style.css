@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
   font-family: Optima;
   src: url(optima.otf);
-}
+} */
 * {box-sizing: border-box}
 
 
@@ -69,7 +69,8 @@ p{
 
 body{
   background-color: #f2e9e4;
-  font-family: Optima;
+  /* font-family: Optima; */
+  font-family: 'Optima', sans-serif;
   margin: 0px;
 }
 
@@ -87,7 +88,8 @@ div.gallery img {
 }
 
 div.desc {
-  font-family: Optima;
+  /* font-family: Optima; */
+  font-family: 'Optima', sans-serif;
   padding: 15px;
   text-align: center;
 }
