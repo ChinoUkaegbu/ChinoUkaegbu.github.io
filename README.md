@@ -4,7 +4,11 @@
 
 **Description**
 
-The task was to debut our 30 Minute Film Festival videos. For this website, after designing the wireframe and putting finishing touches to the general outline of the website I had in my head, I went on to implement it. I first picked a color palette because I knew that would play a huge part in the vibe the website was giving off. After some research, I decided to go with [this color palette](https://coolors.co/22223b-4a4e69-9a8c98-c9ada7-f2e9e4) because it had a more muted, relaxed vibe whuch was what I was going for.
+The task was to debut our 30 Minute Film Festival videos. For this website, I wanted to go with a very relaxed, muted vibe. The major element of the website was the video and so I made sure to put it on the home page.
+
+**Implementation**
+After designing the wireframe and putting finishing touches to the general outline of the website I had in my head, I went on to implement it. I first picked a color palette because I knew that would play a huge part in the vibe the website was giving off. After some research, I decided to go with [this color palette](https://coolors.co/22223b-4a4e69-9a8c98-c9ada7-f2e9e4) because it had a more muted, relaxed vibe which was what I was going for.
+After that, I got into the actual implementation in HTML and did som
 
 **Concept**
 
