@@ -54,17 +54,12 @@
 
 .container img {
   width: 100%;
-  /* position: relative; */
 }
 
 .container .overlay {
   position: absolute;
-  /*top: 80px;
-  right: 15px;*/
   top: 70%;
   left: 67%;
-  /* transform: translate(-50%, -50%); */
-
   font-weight: bold;
   font-family: LemonMilk;
   text-align: right;
@@ -72,7 +67,7 @@
   letter-spacing: 1px;
   color: #F9F5EC;
 
-  text-shadow:
+  text-shadow: /*outline the text with a grey, thin outline*/
 		-0.5px -0.5px 0 #808080,
 		0.5px -0.5px 0 #808080,
 		-0.5px 0.5px 0 #808080,
@@ -80,8 +75,6 @@
 }
 
 .container .rectangle{
-  /* position: absolute; */
-
   display:flex;
   flex-direction:column;
   text-align: center;
@@ -91,8 +84,6 @@
   width: 40vw;
   height: 40vw;
   background: #9A8C98;
-
-
 }
 
 .container .left_rect{
@@ -118,7 +109,7 @@
 .contact-box.logo{
   margin-top:5vw;
   height:2vw;
-  filter: invert(100%) sepia(1%) saturate(4%) hue-rotate(234deg) brightness(104%) contrast(192%);
+  filter: invert(100%) sepia(1%) saturate(4%) hue-rotate(234deg) brightness(104%) contrast(192%); /*the logo was an svg so I was able to change the colour*/
 }
 
 .contact-box.title{

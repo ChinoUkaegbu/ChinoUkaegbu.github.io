@@ -1,9 +1,11 @@
+/* Font to be used */
+
 @font-face {
   font-family: Optima;
   src: url(optima.otf);
 }
 
-* {box-sizing: border-box}
+* {box-sizing: border-box} /*for easier positioning*/
 
 .nav{
   width:100%;

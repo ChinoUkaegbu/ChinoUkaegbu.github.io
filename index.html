@@ -8,6 +8,8 @@
   </head>
   <body>
 
+    <!-- Navigation bar -->
+
     <div class = "nav">
         <a class = "active" href = "index.html"><i class = "fa fa-fw fa-home"></i>Home</a>
         <a href="about.html"><i class = "fa fa-fw fa-question"></i>About</a>
@@ -16,6 +18,7 @@
     </div>
     <br></br>
 
+    <!-- Div to hold video and short description -->
 
     <div class = "video">
       <video width = "900" controls id="myvideo">
@@ -25,7 +28,7 @@
         The 30 Minute Film Festival served as an avenue for us to film and edit short videos based on the theme “connection”. In this video, we decided to depict connection using money. Although we were separated by different buildings or different rooms or even different locations in general, we were still able to simulate passing the note around through Zoom and that ultimately showed that no matter how far away we may be at any time, we will always be connected.
       </p>
     </div>
-    <button onclick = "openFullscreen();">Open Video in fullscreen mode.</button>
+    <button onclick = "openFullscreen();">Open Video in fullscreen mode.</button> <!-- Button to open video in full screen -->
     <script src = "script.js"></script>
     <br></br>
 
@@ -33,9 +36,11 @@
       <span class = "meet-us">Meet the Cast</span>
     </div>
 
+    <!-- Divs for each member of the cast image, displays them in a gallery format -->
+
     <div class="responsive">
       <div class="gallery">
-        <a target="_blank" href="cast.html#cole">
+        <a target="_blank" href="cast.html#cole">  <!--setting target to blank opens the page in a new tab -->
           <img src="images/cole.jpg" alt="Cole Beasley" width="600" height="400">
         </a>
         <div class="desc">Cole Beasley</div>
