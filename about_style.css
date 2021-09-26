@@ -1,3 +1,5 @@
+/* Include fonts to be used in the webpage */
+
 @font-face {
   font-family: LemonMilk;
   src: url(LemonMilkMedium-mLZYV.otf);
@@ -10,6 +12,8 @@
 
 * {box-sizing: border-box}
 
+/* Customize navigation bar */
+
 .nav{
   width:100%;
   background-color: #22223B;
@@ -21,20 +25,26 @@
   float: left;
   color: white;
   padding: 20px;
-  text-decoration: none;
+  text-decoration: none; /*remove the underline from link*/
   font-size: 2.5vw;
   width:25%;
   text-align: center;
 }
 
-.nav a:hover:not(.active){
+/* Create change in color effect to make it look highlighted when the mouse hovers a link in the navigation bar, also changes cursor to pointer */
+
+.nav a:hover:not(.active){ /*effect doesn't apply when the webpage hovered over is the current webpage*/
   background-color: #4A4E69;
   cursor:pointer;
 }
 
+/* Changes the colour of the active webpage */
+
 .active {
   background-color: #E1AD9D
 }
+
+/* Condenses the mavigation bar when the page is resized */
 
 @media screen and (max-width: 500px) {
   .nav a {
@@ -49,6 +59,9 @@
   width: 100%;
   height: auto;
 }
+
+/* Container for image and text */
+
 .container{
   position: relative;
 }
